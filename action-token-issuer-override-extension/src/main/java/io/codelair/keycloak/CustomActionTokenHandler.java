@@ -5,7 +5,6 @@ import org.keycloak.authentication.RequiredActionProvider;
 import org.keycloak.authentication.actiontoken.AbstractActionTokenHander;
 import org.keycloak.authentication.actiontoken.ActionTokenContext;
 import org.keycloak.authentication.actiontoken.TokenUtils;
-import io.codelair.keycloak.CustomActionToken;
 import org.keycloak.events.Errors;
 import org.keycloak.events.EventType;
 import org.keycloak.forms.login.LoginFormsProvider;
