@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>keycloak-extension-playground</artifactId>
+        <groupId>io.codelair.keycloak</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>keycloak-playground-server</artifactId>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>auth-dynamic-idp-redirector-extension</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>jaxrs-request-filter-extension</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>virtual-client-storage-provider-extension</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>reset-password-after-login-eventlistener-extension</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>auth-require-role-extension</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>auth-require-group-extension</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>simple-realm-rest-resource</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>simple-event-listener</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>simple-auth-extension</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>simple-auth-form-extension</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>simple-custom-saml-protocol</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>simple-oidc-mapper</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>simple-saml-mapper</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>simple-formaction-extension</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.codelair.keycloak</groupId>
+            <artifactId>auth-identity-first-extension</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-testsuite-utils</artifactId>
+        </dependency>
+    </dependencies>
+</project>
